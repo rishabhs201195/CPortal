@@ -21,8 +21,6 @@ services:
       - MYSQL_USER=root
       - MYSQL_DATABASE=complaintportal
       
-    volumes:
-      - ./complaintportal_complaint.sql:/docker-entrypoint-initdb.d/cportal.sql
 
 networks:
   cportal-mysql: 
